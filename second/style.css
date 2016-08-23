@@ -1,0 +1,35 @@
+body {
+  margin:0;
+}
+
+section {
+  float:left;
+  width:33.33%;
+  height:100vh;
+  margin:0;
+  font-size:0;
+}
+
+section:nth-child(1) {
+  background-color:dodgerblue;
+}
+
+section:nth-child(2) {
+  background-color:mediumspringgreen;
+}
+
+section:nth-child(3) {
+  background-color:lightgreen;
+  position:relative;
+}
+
+div {
+  position:absolute;
+  bottom:0;
+  height:200px;
+  width:100%;
+  color:white;
+  background-color:red;
+  text-align:center;
+  vertical-align:middle;
+}
